@@ -17,7 +17,7 @@ int main() {
     scanf("%s", &codigo);
 
     printf("Digite o numero de habitantes: \n");
-    scanf("%d", &populacao);
+    scanf("%d", &populacao); 
     
     printf("Digite o PIB: \n");
     scanf("%d", &PIB);
