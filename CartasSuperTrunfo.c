@@ -7,7 +7,26 @@
 //Teste larissa
 
 int main() {
-    printf("Desafio Cartas Super Trunfo!");
+    printf("Desafio Cartas Super Trunfo!\n Cadastrar cartas de cidades baseados no que for pedido abaixo\n");
+
+    int população, PIB, pontos;
+    float area;
+
+    printf("Digite o número de habitantes: \n");
+    scanf("%d", &população);
+    
+    printf("Digite o PIB: \n");
+    scanf("%d", &PIB);
+    
+    printf("Digite o número de pontos turísticos: \n");
+    scanf("%d", &pontos);
+    
+    printf("Digite a área total do território: \n");
+    scanf("%f", &area);
+    
+    printf("População: %d\nArea: %f \n", população, area);
+    printf("PIB: %d\nPontos turísticos: %d\n", PIB, pontos);
+    
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
